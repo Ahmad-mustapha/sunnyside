@@ -259,6 +259,7 @@ h4 a{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* flex-wrap: wrap; */
     gap: 2rem;
 }
 .testimonials{
@@ -278,12 +279,13 @@ h4 a{
     margin-top: .3rem;
 }
 .foodImg{
-    width: 100%;
+    max-width: 100%;
     display: flex;
-    /* align-items: center; */
-    flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: wrap-reverse;
 
 }
+
 .foodImg img{
     width: 25%;
 }
